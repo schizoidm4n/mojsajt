@@ -1,93 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-body{
-    background-color: #ffcc70;
-    font-family: 'Chewy', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&family=Special+Elite&display=swap');
+body {
+    background: linear-gradient(to bottom, #fdf6e3, #e1b382);
+    font-family: 'Special Elite', cursive;
     margin: 0;
     padding: 10px 15px;
-    color: #2e003e;
+    color: #4b2e1e;
 }
-header{
-    background-color: #ff4ecd;
-    color: #fff3db;
+
+section h2 {
+  text-align: center; 
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #4b2e1e;
+}
+
+section ul, section ol {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px; 
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.banner {
+    background: url('https://i.pinimg.com/736x/90/1b/66/901b66db60b39588ecf2cac3d84963ee.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.5);
+}
+
+header {
+    background: linear-gradient(135deg, #7b3f00, #c97d60);
+    color: #fffaf0;
     text-align: center;
     padding: 30px 20px;
-    font-family: 'Monoton', cursive;
-    font-size: 2em;
-    text-shadow: 3px 3px #8c00ff;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #3b1f0b;
+    border-bottom: 6px double #4b2e1e;
 }
-main{
-    background-color: #fff3db;
+
+main {
+    background-color: #fff9e5;
     max-width: 800px;
-    margin: 20px auto 40px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 25px #da70d6;
+    margin: 30px auto 40px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px dashed #b5651d;
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.4);
 }
-section{
-    margin-bottom: 20px;
+
+section {
+    margin-bottom: 35px;
 }
-section h2{
-    color: #e6007e;
-     font-family: 'Monoton', cursive;
+
+section h2 {
+    color: #7b3f00;
+    font-family: 'Stardos Stencil', cursive;
     font-size: 1.8em;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
 }
-section p{
-    color: #3c004f;
-    font-size: 1.1em;
-    line-height: 1.6;
+
+section p {
+    color: #4b2e1e;
+    font-size: 1.15em;
+    line-height: 1.8;
 }
-#naglasen{
-    background-color: #ff7f50;
-    padding: 10px;
-    border-radius: 10px;
+
+#naglasen {
+    background-color: #d2691e;
+    padding: 12px 18px;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
-    box-shadow: 2px 2px 10px #ff1493;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 10px #8b4513;
     transition: background-color 0.3s ease;
+    border: 2px solid #5c3317;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
+
 #naglasen:hover {
-    background-color: #ff6347;
+    background-color: #a0522d;
     cursor: default;
 }
-footer{
-    background-color: #8c00ff;
-    color: #ffe3ff;
-    padding: 20px;
+
+#o-meni {
+    background: linear-gradient(135deg, #fbe8c7, #d2a679);
+    padding: 30px 35px;
+    border-radius: 20px;
+    border: 3px solid #b5651d;
+    box-shadow: 0 0 25px rgba(160, 82, 45, 0.3);
+    font-family: 'Special Elite', cursive;
+    color: #3b1f0b;
+    font-size: 1.3em;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
+}
+
+footer {
+    background: linear-gradient(to right, #5c3317, #8b5a2b);
+    color: #f5deb3;
+    padding: 25px;
     text-align: center;
-    font-family: 'Rubik Moonrocks', cursive;
-    border-top: 5px dotted #ffcc70;
+    font-family: 'Stardos Stencil', cursive;
     font-size: 1.1em;
+    letter-spacing: 0.1em;
+    border-top: 4px dashed #deb887;
+    text-shadow: 1px 1px #3b1f0b;
+    box-shadow: 0 -5px 15px rgba(139, 69, 19, 0.3);
 }
+
 footer a {
-    color: #ff1493;
-    margin: 0 10px;
+    color: #ffdead;
     font-weight: bold;
+    margin: 0 10px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
 }
+
 footer a:hover {
-    color: #fff3db;
-    text-decoration: underline;
+    border-color: #deb887;
 }
-section p {
-    color: #3c004f;
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-section {
-    margin-bottom: 30px;
-}
+
 .linkovi nav a {
-    align-items: center;
     text-decoration: none;
     margin-left: 15px;
-    color: #ff1493;
+    color: #a0522d;
     font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.1em;
     transition: color 0.3s ease;
+    border-bottom: 2px dotted transparent;
 }
+
 .linkovi nav a:hover {
-    text-decoration: underline wavy hotpink;
-    color: #8c00ff;
+    color: #5c3317;
+    border-bottom: 2px dotted #a0522d;
     cursor: pointer;
 }
